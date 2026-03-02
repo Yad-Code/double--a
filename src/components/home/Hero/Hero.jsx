@@ -48,7 +48,7 @@ export default function Hero() {
           {/* Stats */}
           <div className="pt-8 grid grid-cols-3 gap-8 border-t border-rose-100">
             <div>
-              <p className="text-3xl font-bold text-slate-900">500+</p>
+              <p className="text-3xl font-bold text-slate-900">10+</p>
               <p className="text-sm text-slate-500 uppercase tracking-wider">
                 Happy Souls
               </p>

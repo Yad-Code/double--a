@@ -6,6 +6,7 @@ import Navbar from "./components/layout/Navbar/Navbar.jsx";
 
 import "./assets/App.css";
 import Shop from "./pages/Shop.jsx";
+import About from "./pages/About.jsx";
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />
+          <Route path="/about" element={<About />} />
+          
         </Routes>
         <Footer />
       </Router>
