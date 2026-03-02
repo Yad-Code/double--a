@@ -5,12 +5,10 @@ export default function Hero() {
     <section className="relative bg-rose-50/50 overflow-hidden">
       {/* Decorative background element */}
       <div className="absolute top-0 right-0 -translate-y-1/2 translate-x-1/4 w-96 h-96 bg-rose-200/30 rounded-full blur-3xl" />
-      
+
       <div className="max-w-7xl mx-auto px-6 py-16 lg:py-24 grid lg:grid-cols-2 gap-12 items-center">
-        
         {/* Left Column: Content */}
         <div className="relative z-10 space-y-8">
-          
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm border border-rose-200 px-4 py-1.5 rounded-full shadow-sm">
             <Sparkles size={16} className="text-rose-500" />
@@ -27,8 +25,9 @@ export default function Hero() {
               Blooms
             </h1>
             <p className="max-w-lg text-lg text-slate-600 leading-relaxed">
-              Each flower is uniquely crafted by hand with premium materials. 
-              Experience beauty that lasts forever—no water, no wilting, just art.
+              Each flower is uniquely crafted by hand with premium materials.
+              Experience beauty that lasts forever—no water, no wilting, just
+              art.
             </p>
           </div>
 
@@ -36,7 +35,10 @@ export default function Hero() {
           <div className="flex flex-wrap gap-4">
             <button className="group flex items-center gap-2 bg-rose-500 hover:bg-rose-600 text-white px-8 py-4 rounded-full font-semibold transition-all shadow-lg shadow-rose-200 active:scale-95">
               Shop Collection
-              <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+              <ArrowRight
+                size={18}
+                className="group-hover:translate-x-1 transition-transform"
+              />
             </button>
             <button className="px-8 py-4 rounded-full font-semibold text-slate-700 hover:bg-white transition-colors border border-transparent hover:border-rose-100">
               Our Story
@@ -47,15 +49,21 @@ export default function Hero() {
           <div className="pt-8 grid grid-cols-3 gap-8 border-t border-rose-100">
             <div>
               <p className="text-3xl font-bold text-slate-900">500+</p>
-              <p className="text-sm text-slate-500 uppercase tracking-wider">Happy Souls</p>
+              <p className="text-sm text-slate-500 uppercase tracking-wider">
+                Happy Souls
+              </p>
             </div>
             <div>
               <p className="text-3xl font-bold text-slate-900">100%</p>
-              <p className="text-sm text-slate-500 uppercase tracking-wider">Handmade</p>
+              <p className="text-sm text-slate-500 uppercase tracking-wider">
+                Handmade
+              </p>
             </div>
             <div>
               <p className="text-3xl font-bold text-slate-900">12+</p>
-              <p className="text-sm text-slate-500 uppercase tracking-wider">Designs</p>
+              <p className="text-sm text-slate-500 uppercase tracking-wider">
+                Designs
+              </p>
             </div>
           </div>
         </div>
@@ -72,12 +80,15 @@ export default function Hero() {
           </div>
           {/* Floating Detail Card */}
           <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-xl shadow-xl hidden md:block">
-            <p className="text-xs text-rose-500 font-bold uppercase">Featured</p>
-            <p className="text-sm font-medium text-slate-800">The Velvet Peony</p>
+            <p className="text-xs text-rose-500 font-bold uppercase">
+              Featured
+            </p>
+            <p className="text-sm font-medium text-slate-800">
+              The Velvet Peony
+            </p>
           </div>
         </div>
-
       </div>
     </section>
   );
-} 
+}
